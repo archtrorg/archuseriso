@@ -35,7 +35,7 @@ abiword gnumeric
 ## better than Intel's driver. Use the one which works
 ## the best with your hardware (default: not installed)
 #
-#xf86-video-intel
+xf86-video-intel
 
 ### Others
 ##
