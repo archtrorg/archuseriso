@@ -171,7 +171,7 @@ _finalize () {
 }
 
 # arguments
-OPTS=$(getopt -o 'h' --long 'encrypt,help' -n 'auto_persistent' -- "$@")
+OPTS=$(getopt -o 'h' --long 'encrypt,help' -n 'add-persistence' -- "$@")
 [[ $? -eq 0 ]] || _usage 1
 eval set -- "${OPTS}"
 unset OPTS
